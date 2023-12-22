@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>bookingr</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ 
+
+</head>
+<body style="background-color: teal"; >
+ 
+<h1> <center> <strong> BOOKING CAB</strong></center></h1>
+<br><br>
+<form action="sending" method="post">
+   <div class="form-floating mb-3">
+  <input type="name"  name="name" class="form-control" id="floatingInput" placeholder=" name">
+  <label for="floatingInput">  Name</label>
+</div>
+<br>
+<label > gender</label>
+ <select  class="custom-select" name ="gender" >
+  
+  <option value="Male">Male</option>
+  <option value="Female">Female</option>
+  <option value="others">others</option>
+  </select><br><br>
+  <div class="form-floating">
+  <input type="email" name="email" class="form-control" id="floatingInput " placeholder="name@example.com">
+  <label for="floatingInput">Email</label>
+</div> <br>
+ <div class="form-floating">
+  <input type="number" name="number" class="form-control" id="floatingInput " placeholder="number">
+  <label for="floatingInput">Mobile Number</label>
+</div> <br>
+ 
+
+ <div class="form-floating mb-3">
+  <input type="text"  name="from" class="form-control" id="floatingInput" placeholder="from">
+  <label for="floatingInput">Start from</label>
+</div><br>
+ 
+ <div class="form-floating mb-3">
+  <input type="text"  name="to" class="form-control" id="floatingInput" placeholder="to">
+  <label for="floatingInput">Destination</label>
+</div><br>
+
+<label >Vehicle</label>
+<select  class="custom-select" name ="type" >
+ 
+    
+  <option value="auto">auto</option>
+  <option value="cab">cab</option>
+  <option value="bike">bike</option>
+  </select><br><br>
+<label>choose payment mode  </label>
+<select  class="custom-select"  name ="pay">
+   
+  <option value="cash on delivery">cash on delivery</option>
+  <option value="upi Lite" > upi Lite</a> </option>
+  <option value="netbanking">netbanking</option>
+   
+  
+</select><br><br>
+<div class="form-floating mb-3">
+  <input type="time"  name="time" class="form-control" id="floatingInput" placeholder="time">
+  <label for="floatingInput">Time</label>
+</div><br><br>
+ <div class="form-floating mb-3">
+  <input type="date"  name="date" class="form-control" id="floatingInput" placeholder="date">
+  <label for="floatingInput"> </label>
+</div>
+<input type= "submit" value="submit">
+   </form>
+
+
+</body>
+</html>
